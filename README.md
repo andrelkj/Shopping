@@ -16,3 +16,7 @@ Pytest standard logic is to look for any file that starts with "test" and those 
 
 ### Flags
 -s - force states to print out
+
+## Documentation
+- [Pytest](https://docs.pytest.org/en/8.2.x/)
+- [Unit test mock](https://docs.python.org/3/library/unittest.mock.html)
