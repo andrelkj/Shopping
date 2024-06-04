@@ -8,3 +8,11 @@ Pytest standard logic is to look for any file that starts with "test" and those 
 
 ## Methods
 - assert - validation method that checks if the statement is true and throw an exception in case it is not, causing the test to fail
+
+## Running tests
+- pytest - run all test cases
+- pytest test_shopping_cart.py - run all test cases from the file
+- pytest test_shopping_cart.py::test_can_get_total_price - run only one specific function from the file
+
+### Flags
+-s - force states to print out
