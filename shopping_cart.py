@@ -2,7 +2,7 @@ from typing import List
 
 
 class ShoppingCart:
-    def __init__(self) -> None:
+    def __init__(self, max_size: int) -> None:
         self.items: List[str] = []
 
     def add(self, item: str):
