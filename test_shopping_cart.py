@@ -16,6 +16,8 @@ def test_when_item_added_then_cart_contains_item():
 
 def test_when_add_more_than_max_items_should_fail():
     cart = ShoppingCart(5)
+    for _ in range(6):
+        cart.add("apple")
+
     with pytest.raises(OverflowError):
-        for _ in range(6):
-            cart.add("apple")
+        cart.add("apple")
