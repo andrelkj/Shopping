@@ -2,13 +2,13 @@ from typing import List
 
 class ShoppingCart:
   def __init__(self) -> None:
-    pass
+    self.items: List[str] = []
 
   def add(self, item: str):
-    pass
+    self.items.append(item)
 
   def size(self) -> int:
-    return 0
+    return len(self.items)
   
   def get_items(self) -> List[str]:
     pass
