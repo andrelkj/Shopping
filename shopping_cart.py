@@ -7,7 +7,7 @@ class ShoppingCart:
         self.max_size = max_size
 
     def add(self, item: str):
-        if self.size() == self.max_size - 1:
+        if self.size() == self.max_size:
           raise OverflowError("Cannot add more items!")
         self.items.append(item)
 
