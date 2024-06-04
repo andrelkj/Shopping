@@ -17,6 +17,12 @@ Pytest standard logic is to look for any file that starts with "test" and those 
 ### Flags
 -s - force states to print out
 
+## Fixtures
+Fixtures can be used in order to provide context to test cases. It replaces repetitive function calls by defining a generic function that is passed as argument inside the test cases
+
+## Mocks
+Mocks are used to mimic fake behaviors by mocking one specific condition or set of data 
+
 ## Documentation
 - [Pytest](https://docs.pytest.org/en/8.2.x/)
 - [Unit test mock](https://docs.python.org/3/library/unittest.mock.html)
